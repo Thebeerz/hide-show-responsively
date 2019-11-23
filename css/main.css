@@ -17,7 +17,7 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.dino-wrap {
   display: block;
   width: 100%;
 }
@@ -85,4 +85,5 @@ img {
   .dino:nth-child(1) {
     display: block;
   }
+
 }
