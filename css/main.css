@@ -17,37 +17,72 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+img {
+  display: block;
+  width: 100%;
+}
+
+.dino:nth-child(2) {
+  display: none;
+}
+
+.dino:nth-child(4) {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
 
-.dino-wrap img {
-  display: inline;
-  width: 60%;
-}
+  .dino {
+    display: block;
+    width: 50%;
+  }
+
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dino:nth-child(2) {
+    display: block;
+  }
+
+  .dino:nth-child(4) {
+    display: block;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-.dino-wrap img {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
+  .dino {
+    display: block;
+    width: 33.3333%;
+  }
 
-div {
-  flex-wrap: wrap;
-}
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dino:nth-child(1) {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-.dino-wrap {
-  display: inline;
-}
+  .dino {
+    display: block;
+    width: 25%;
+  }
 
+  .dino-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dino:nth-child(1) {
+    display: block;
+  }
 }
