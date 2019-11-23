@@ -22,6 +22,10 @@ img {
   width: 100%;
 }
 
+.dino-wrap {
+  width: 100%;
+}
+
 .dino:nth-child(2) {
   display: none;
 }
